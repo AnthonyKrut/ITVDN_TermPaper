@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YUMMY</title>
+
+        <!-- Animate.css lib: https://animate.style -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!-- Animate on scroll lib: https://github.com/michalsnik/aos -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header__container container sticky">
+                <a class="header__logo animate__animated" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+                <nav class="header__nav nav">
+                    <a class="nav__item animate__animated" href="#advice">Порада від Ямі</a>
+                    <a class="nav__item animate__animated" href="#favourites">Мої улюблені солодощі</a>
+                </nav>
+            </div>
+
+            <div class="header__container container invisible">
+                <a class="header__logo" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+                <nav class="header__nav nav">
+                    <a class="nav__item" href="#advice">Порада від Ямі</a>
+                    <a class="nav__item" href="#favourites">Мої улюблені солодощі</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <!-- Section 1 -->
+            <section class="section" id="starter">
+                <div class="section__container container">
+                    <div class="section__article article">
+                        <h1 class="article__title">
+                            <span class="orange-txt">YUMMY</span> PUG
+                        </h1>
+                        <div class="article__text">
+                            <p>
+                                Всім привіт, я Ямі і я мопс, який дуже сильно полюбляє солодощі.
+                                Сьогодні я розкажу вам, чому саме солодощі і чому вони так
+                                важливі в нашому житті.
+                            </p>
+                            <p>
+                                Доречі, моє імʼя з англійської мови перекладається як “Смачний”.
+                            </p>
+                        </div>
+                        <a class="article__btn btn" href="#favourites">Мої улюблені солодощі</a>
+                    </div>
+
+                    <img class="section__img" src="./img/puppy01.png" alt="puppy">
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section class="section" id="favourites">
+                <div class="container">
+                    <h2 class="section__title"><span class="orange-txt">Мої улюблені</span> солодощі</h2>
+                    <ul class="section__candy-list candy-list">
+                        <li class="candy-list__item item" data-aos="fade-right" data-aos-duration="1500">
+                            <img class="item__img" src="./img/candy01.png" alt="candy">
+                            <h3 class="item__title">Червоний мак</h3>
+                            <p class="item__text">Пралене з додаванням карамельної крихти, пасти ядер горіхів фундука та
+                                мигдалюпокрите шоколадною глазурʼю</p>
+                        </li>
+                        <li class="candy-list__item item">
+                            <img class="item__img" src="./img/candy02.png" alt="candy">
+                            <h3 class="item__title">Сливки-ленивки</h3>
+                            <p class="item__text">Світлі вафельні листи, поєднані молочно-вершковою начинкою та покриті
+                                глазур’ю.</p>
+                        </li>
+                        <li class="candy-list__item item" data-aos="fade-left" data-aos-duration="1500">
+                            <img class="item__img" src="./img/candy03.png" alt="candy">
+                            <h3 class="item__title">Ліщина</h3>
+                            <p class="item__text">Праліне з додаванням подрібненої та тертої ліщини та мигдалю, покрите
+                                шоколадною глазур’ю.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section class="section" id="advice">
+                <div class="section__container container">
+                    <div class="section__article article">
+                        <h2 class="article__title" data-aos="fade-right" data-aos-duration="1500">
+                            <span class="orange-txt">Порада –</span><br> від Yummy
+                        </h2>
+                        <div class="article__text" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+                            З'ївши чергову шоколадку, ви не просто набираєте трохи додаткових
+                            калорій, але покращуєте тим самим роботу мозку, настрій і стаєте
+                            трішки добрішим. Вирішивши поласувати шоколадкою, віддавайте
+                            перевагу саме чорному шоколаду з високим вмістом какао-бобів. У
+                            цьому вигляді шоколаду менше жиру і цукру, ніж в молочному
+                            шоколаді, але зате магнію, кальцію, заліза, білка, антиоксидантів
+                            і вітамінів предостатньо.
+                        </div>
+
+                        <h3 class="article__subtitle" data-aos="fade-right" data-aos-duration="1500"
+                            data-aos-delay="600">Солодощі, які
+                            радить їсти Ямі:</h3>
+                        <ul class="article__list" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                            <li>Чорний шоколад</li>
+                            <li>Зефір</li>
+                            <li>Пастила</li>
+                            <li>Мармелад</li>
+                            <li>Мед</li>
+                            <li>Халва</li>
+                            <li>Цукати</li>
+                        </ul>
+                    </div>
+
+                    <img class="section__img" src="./img/puppy02.png" alt="puppy">
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <img class="footer__logo" src="./img/logo.svg" alt="logo">
+                <span class="footer__copyright">Приєднуйся і живи зі мною у світі солодощів!</span>
+            </div>
+        </footer>
+
+        <!-- Animate on scroll lib: https://github.com/michalsnik/aos -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+
+</html>

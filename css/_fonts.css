@@ -1,0 +1,88 @@
+/* VARIABLE FONTS */
+
+@supports font-tech(variations) {
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/variable/Montserrat-VariableFont_wght.ttf')
+        format('truetype');
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/variable/Montserrat-Italic-VariableFont_wght.ttf')
+        format('truetype');
+        font-style: italic;
+    }
+}
+
+/* NORMAL STATIC FONTS*/
+
+@supports not font-tech(variations) {
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-SemiBold.ttf')
+        format('truetype');
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-Bold.ttf')
+        format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-ExtraBold.ttf')
+        format('truetype');
+      font-weight: 800;
+      font-style: normal;
+    }
+}  
+
+/* ITALIC STATIC FONTS */
+
+@supports not font-tech(variations) {
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-MediumItalic.ttf')
+        format('truetype');
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-SemiBoldItalic.ttf')
+        format('truetype');
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-BoldItalic.ttf')
+        format('truetype');
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/static/Montserrat-ExtraBoldItalic.ttf')
+        format('truetype');
+      font-weight: 800;
+      font-style: italic;
+    }
+}
